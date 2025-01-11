@@ -28,7 +28,7 @@ document.getElementById("uploadForm").addEventListener("submit", async function 
 
     const data = await response.json();
 
-    // Limpa resultados anteriores
+    // Limpa resultados anterioress
     const resultsList = document.getElementById("resultsList");
     resultsList.innerHTML = "";
 
